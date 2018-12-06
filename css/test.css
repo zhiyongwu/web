@@ -1,0 +1,51 @@
+@import url("https://cdn.bootcss.com/normalize/8.0.1/normalize.css");
+
+body{
+    margin: 4rem;
+}
+
+p>span{
+    font-variant: small-caps;
+}
+p{
+    white-space: pre;
+    text-decoration: overline underline;
+    font-variant: normal;
+    letter-spacing: 0.3rem;
+}
+p.cls1.cls2{
+    text-indent: -3rem;
+}
+
+p[class$="cls1"]{
+    color: red;
+}
+
+*{
+    font-size: 2rem
+}
+
+input:focus{
+    font-weight: 600;
+    color: silver;
+} 
+
+
+p:hover{
+    color:yellow;
+}
+
+
+
+p:first-child{
+    font-size: 30px;
+} 
+p::before{
+    content: "]]"
+} 
+p:first-letter{
+    color: blue;
+}
+p:after{
+    content: "[["
+} 
